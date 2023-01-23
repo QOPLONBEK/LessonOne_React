@@ -5,9 +5,97 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #7a9fd8;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.container{
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+ul, ol{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-list{
+  display: flex;
+  margin: 10% auto;
+  background-color: white;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+  width: 1000px;
+  text-align: center;
+  box-shadow: 2px 8px 10px 8px rgba(0, 0, 0, 0.161);
+  border-radius: 4px;
+}
+
+.list-item{
+  margin: 0% auto;
+  padding: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 300px;
+}
+.item-link{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #186cc5;
+}
+.list-item:hover{
+  background-color: #f1eaeac9;
+  border-radius: 4px;
+}
+
+.list-item:active{
+  opacity: 0.8;
+}
+
+.item-title{
+  font:lighter;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.item-text{
+  color: #6c757d;
+}
+
+.dollar{
+  font-size: 100%;
+  font-weight: 800;
+  vertical-align: top;
+  content: "-";
+}
+
+.number{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.month{
+  font-weight: 600;
+}
+
+.item-images1{
+  padding-top: 10px;
+}
+
+.item-images2{
+  padding-top: 5px;
+}
+
+.item-images3{
+  padding-top: 5px;
 }
