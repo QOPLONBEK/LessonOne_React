@@ -3,10 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import imageOne from './img/device.svg'
 import imageTwo from './img/laptop.svg'
-import imageThree from './img/monitor.svg'
- 
-import App from './App';
-
+import imageThree from './img/monitor.svg' 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

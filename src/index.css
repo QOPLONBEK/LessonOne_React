@@ -5,12 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7a9fd8;
+  background-color: #7C9BCA;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 .container{
@@ -47,12 +46,14 @@ ul, ol{
   width: 300px;
   height: 300px;
 }
+
 .item-link{
   margin: 0;
   padding: 0;
   text-decoration: none;
   color: #186cc5;
 }
+
 .list-item:hover{
   background-color: #f1eaeac9;
   border-radius: 4px;
